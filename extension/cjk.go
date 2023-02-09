@@ -1,9 +1,9 @@
 package extension
 
 import (
-	"github.com/yuin/goldmark"
-	"github.com/yuin/goldmark/parser"
-	"github.com/yuin/goldmark/renderer/html"
+	"github.com/therealfakemoot/goldmark"
+	"github.com/therealfakemoot/goldmark/parser"
+	"github.com/therealfakemoot/goldmark/renderer/html"
 )
 
 // A CJKOption sets options for CJK support mostly for HTML based renderers.

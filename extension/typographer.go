@@ -3,11 +3,11 @@ package extension
 import (
 	"unicode"
 
-	"github.com/yuin/goldmark"
-	gast "github.com/yuin/goldmark/ast"
-	"github.com/yuin/goldmark/parser"
-	"github.com/yuin/goldmark/text"
-	"github.com/yuin/goldmark/util"
+	"github.com/therealfakemoot/goldmark"
+	gast "github.com/therealfakemoot/goldmark/ast"
+	"github.com/therealfakemoot/goldmark/parser"
+	"github.com/therealfakemoot/goldmark/text"
+	"github.com/therealfakemoot/goldmark/util"
 )
 
 var uncloseCounterKey = parser.NewContextKey()

@@ -6,11 +6,11 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/yuin/goldmark"
-	"github.com/yuin/goldmark/extension"
-	"github.com/yuin/goldmark/parser"
-	"github.com/yuin/goldmark/renderer/html"
-	"github.com/yuin/goldmark/util"
+	"github.com/therealfakemoot/goldmark"
+	"github.com/therealfakemoot/goldmark/extension"
+	"github.com/therealfakemoot/goldmark/parser"
+	"github.com/therealfakemoot/goldmark/renderer/html"
+	"github.com/therealfakemoot/goldmark/util"
 )
 
 func Fuzz(f *testing.F) {

@@ -5,12 +5,12 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/yuin/goldmark"
-	"github.com/yuin/goldmark/ast"
-	"github.com/yuin/goldmark/parser"
-	"github.com/yuin/goldmark/renderer"
-	"github.com/yuin/goldmark/text"
-	"github.com/yuin/goldmark/util"
+	"github.com/therealfakemoot/goldmark"
+	"github.com/therealfakemoot/goldmark/ast"
+	"github.com/therealfakemoot/goldmark/parser"
+	"github.com/therealfakemoot/goldmark/renderer"
+	"github.com/therealfakemoot/goldmark/text"
+	"github.com/therealfakemoot/goldmark/util"
 )
 
 type WlExtension struct{}

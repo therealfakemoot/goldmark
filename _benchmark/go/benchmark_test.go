@@ -6,9 +6,9 @@ import (
 	"testing"
 
 	gomarkdown "github.com/gomarkdown/markdown"
-	"github.com/yuin/goldmark"
-	"github.com/yuin/goldmark/renderer/html"
-	"github.com/yuin/goldmark/util"
+	"github.com/therealfakemoot/goldmark"
+	"github.com/therealfakemoot/goldmark/renderer/html"
+	"github.com/therealfakemoot/goldmark/util"
 	"gitlab.com/golang-commonmark/markdown"
 
 	"github.com/russross/blackfriday/v2"

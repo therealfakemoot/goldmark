@@ -3,9 +3,9 @@ package goldmark_test
 import (
 	"testing"
 
-	. "github.com/yuin/goldmark"
-	"github.com/yuin/goldmark/parser"
-	"github.com/yuin/goldmark/testutil"
+	. "github.com/therealfakemoot/goldmark"
+	"github.com/therealfakemoot/goldmark/parser"
+	"github.com/therealfakemoot/goldmark/testutil"
 )
 
 func TestAttributeAndAutoHeadingID(t *testing.T) {

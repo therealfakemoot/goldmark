@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"unicode/utf8"
 
-	"github.com/yuin/goldmark/ast"
-	"github.com/yuin/goldmark/renderer"
-	"github.com/yuin/goldmark/util"
+	"github.com/therealfakemoot/goldmark/ast"
+	"github.com/therealfakemoot/goldmark/renderer"
+	"github.com/therealfakemoot/goldmark/util"
 )
 
 // A Config struct has configurations for the HTML based renderers.

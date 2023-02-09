@@ -3,9 +3,9 @@ package parser
 import (
 	"bytes"
 
-	"github.com/yuin/goldmark/ast"
-	"github.com/yuin/goldmark/text"
-	"github.com/yuin/goldmark/util"
+	"github.com/therealfakemoot/goldmark/ast"
+	"github.com/therealfakemoot/goldmark/text"
+	"github.com/therealfakemoot/goldmark/util"
 )
 
 type fencedCodeBlockParser struct {

@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"unicode/utf8"
 
-	"github.com/yuin/goldmark/util"
+	"github.com/therealfakemoot/goldmark/util"
 )
 
 const invalidValue = -1

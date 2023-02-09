@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"strings"
 
-	textm "github.com/yuin/goldmark/text"
-	"github.com/yuin/goldmark/util"
+	textm "github.com/therealfakemoot/goldmark/text"
+	"github.com/therealfakemoot/goldmark/util"
 )
 
 // A NodeType indicates what type a node belongs to.

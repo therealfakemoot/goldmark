@@ -6,11 +6,11 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/yuin/goldmark"
-	"github.com/yuin/goldmark/ast"
-	"github.com/yuin/goldmark/parser"
-	"github.com/yuin/goldmark/renderer/html"
-	"github.com/yuin/goldmark/testutil"
+	. "github.com/therealfakemoot/goldmark"
+	"github.com/therealfakemoot/goldmark/ast"
+	"github.com/therealfakemoot/goldmark/parser"
+	"github.com/therealfakemoot/goldmark/renderer/html"
+	"github.com/therealfakemoot/goldmark/testutil"
 )
 
 func TestExtras(t *testing.T) {
