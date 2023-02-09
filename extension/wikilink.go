@@ -13,14 +13,14 @@ import (
 	"github.com/yuin/goldmark/util"
 )
 
-type wlExtension struct{}
+type WlExtension struct{}
 
 // Option is a functional option type for this extension.
-type Option func(*wlExtension)
+type Option func(*WlExtension)
 
 // New returns a new Wikilink extension.
-func New(opts ...Option) goldmark.Extender {
-	e := &wlExtension{}
+func NewWikilinksExtension(opts ...Option) goldmark.Extender {
+	e := &WlExtension{}
 	for _, opt := range opts {
 		opt(e)
 
@@ -29,7 +29,7 @@ func New(opts ...Option) goldmark.Extender {
 }
 
 // Extend adds a wikilink parser to a Goldmark parser
-func (wl *wlExtension) Extend(m goldmark.Markdown) {
+func (wl *WlExtension) Extend(m goldmark.Markdown) {
 	m.Parser().AddOptions(
 		parser.WithInlineParsers(
 			util.Prioritized(NewParser(), 102),
